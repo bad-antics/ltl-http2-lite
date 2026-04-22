@@ -1,0 +1,15 @@
+// ltl-http2-lite/main.ltl
+//
+// HTTP/2 framing + HPACK header decoder — client side.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-http2-lite v0.1.0")
+    io::println("HTTP/2 framing + HPACK header decoder — client side.")
+    0
+}
